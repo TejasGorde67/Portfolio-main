@@ -4,19 +4,20 @@
 
 @layer base {
   :root {
-    /* Light Theme Colors */
-    --background: 240 100% 98%; /* Light background */
-    --foreground: 222 84% 4.9%; /* Light text color */
+    /* Full White Theme */
+    --background: 0 0% 100%; /* Pure white background */
+    --foreground: 0 0% 0%; /* Pure black text for contrast */
 
-    --card: 240 100% 98%;
-    --card-foreground: 222 84% 4.9%;
+    --card: 0 0% 100%; /* Pure white card background */
+    --card-foreground: 0 0% 0%; /* Black text on card */
 
-    --primary: 240 60% 15%; /* Darker primary color */
-    --primary-foreground: 210 40% 95%; /* Light text on primary */
-    
-    --border: 214.3 31.8% 91.4%; /* Light border */
-    --input: 214.3 31.8% 91.4%; /* Light input */
-  }
+    --primary: 0 0% 90%; /* Slightly off-white primary color */
+    --primary-foreground: 0 0% 0%; /* Black text on primary */
+
+    --border: 0 0% 85%; /* Light gray border */
+    --input: 0 0% 95%; /* Slightly off-white input background */
+}
+
 
   .dark {
     /* Full Black Theme */
