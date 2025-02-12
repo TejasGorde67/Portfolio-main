@@ -52,6 +52,9 @@ const MyProjects: React.FC<MyProjectsProps> = ({ projects, showLoadMore = false 
           </div>
         ))}
       </div>
+      <div>
+      <LoadMoreButton />
+     </div>
 
      
 
