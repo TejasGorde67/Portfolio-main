@@ -104,7 +104,7 @@ const AboutPage = () => {
                         <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-6">
                         
 
-           Full Stack Web Developer building impactful web applications. I specialize in creating production-ready web and mobile apps from the ground up, with expertise in frontend, backend, and real-time applications. 
+           Full Stack Web Developer building impactful web applications. I specialize in creating production-ready web and mobile apps from the ground up, with expertise in frontend, backend, and real-time applications. Passionate about solving real-world problems, I thrive on challenges that push me to innovate and optimize. My journey includes MERN stack development, React Native, open-source contributions, and exploring blockchain and data-driven applications. Always eager to learn and contribute to high-impact projects! 🚀 
 
 
                         </p>
