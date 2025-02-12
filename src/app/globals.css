@@ -19,19 +19,20 @@
   }
 
   .dark {
-    /* Dark Theme Colors */
-    --background: 0 0% 10%; /* Dark background */
-    --foreground: 210 40% 90%; /* Light text color */
+    /* Full Black Theme */
+    --background: 0 0% 0%; /* Pure black background */
+    --foreground: 0 0% 100%; /* Pure white text */
 
-    --card: 0 0% 20%; /* Darker card background */
-    --card-foreground: 210 40% 90%; /* Light text color for card */
+    --card: 0 0% 5%; /* Slightly off-black card background */
+    --card-foreground: 0 0% 100%; /* White text for card */
 
-    --primary: 0 0% 20%; /* Darker primary color */
-    --primary-foreground: 210 40% 90%; /* Light text on primary */
-    
-    --border: 0 0% 30%; /* Dark border */
-    --input: 0 0% 20%; /* Darker input background */
-  }
+    --primary: 0 0% 10%; /* Very dark primary color */
+    --primary-foreground: 0 0% 100%; /* White text on primary */
+
+    --border: 0 0% 15%; /* Dark grey border */
+    --input: 0 0% 10%; /* Dark input background */
+}
+
 
   * {
     @apply border-[#e5e7eb] dark:border-[#374151];
