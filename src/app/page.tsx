@@ -7,7 +7,7 @@ import { ChevronRight, MailPlus, MouseIcon, Terminal, Download } from "lucide-re
 import Image from "next/image";
 import Link from "next/link";
 import MyProjects from "@/components/projects";
-import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaDatabase, FaLock, FaComments, FaTasks } from 'react-icons/fa';
 import CertificationsSection from "@/components/cert";
 import Head from "next/head";
 import { FlipWordsDemo } from "@/components/words";
@@ -36,7 +36,12 @@ const staggerContainer = {
 const projects = [
     { title: 'Sociallite', description: 'Social Platform.', icon: <FaNodeJs className='text-black-500' /> },
     { title: 'PageFlix', description: 'Book browsing Platform', icon: <FaReact className='text-cyan-400' /> },
-   
+    { title: 'AnonyGram', description: 'Anonymous social media platform.', icon: <FaLock className='text-gray-500' /> },
+    { title: 'Realtime Chat App', description: 'Live messaging with WebSockets.', icon: <FaComments className='text-green-400' /> },
+    { title: 'Book Store App', description: 'A full-stack book store application.', icon: <FaReact className='text-blue-500' /> },
+    { title: 'Kanban Board Project', description: 'Task management with drag and drop.', icon: <FaTasks className='text-yellow-500' /> },
+
+
  
   
   ];
