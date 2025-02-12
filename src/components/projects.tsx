@@ -17,10 +17,10 @@ interface MyProjectsProps {
 }
 
 const MyProjects: React.FC<MyProjectsProps> = ({ projects, showLoadMore = false }) => {
-  const [visibleProjects, setVisibleProjects] = useState(2);
+  const [visibleProjects, setVisibleProjects] = useState(projects.length);
 
   const handleLoadMore = () => {
-    setVisibleProjects((prev) => prev + 2);
+    setVisibleProjects((prev) => prev + 4);
   };
 
   return (
