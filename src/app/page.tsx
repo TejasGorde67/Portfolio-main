@@ -100,7 +100,7 @@ const Home = () => {
               variants={fadeInUp}
               className="text-4xl flex gap-12 items-center flex-row md:text-7xl lg:text-8xl font-bold"
             >
-              Tejas  
+              Tejas :) 
             </MotionDiv>
 
             <MotionDiv variants={fadeInUp}>
@@ -112,7 +112,8 @@ const Home = () => {
               className="opacity-80 text-sm lg:text-xl font-medium"
             >
               <span className="text-blue-500 font-bold">
-              Full Stack Developer 
+              Full Stack Developer Building Impactful Web Applications.
+
               </span>
             </MotionDiv>
 
