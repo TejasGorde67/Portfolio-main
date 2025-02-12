@@ -1,7 +1,7 @@
 // components/MyProjects.tsx
 'use client';
 import React, { useState } from 'react';
-import { FaFolderOpen, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import { FaFolderOpen, FaReact, FaNodeJs, FaDatabase,FaWeebly } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 import LoadMoreButton from './loadmore';
 
@@ -29,6 +29,13 @@ const MyProjects: React.FC<MyProjectsProps> = ({ projects, showLoadMore = false 
         <FaFolderOpen className='text-2xl mr-2' />
         <h1 className='text-center'> | My Projects |</h1>
       </div>
+
+      <div className='flex justify-center items-center'>
+       <FaWeebly className='text-2xl mr-0' /> 
+       <h1 className='text-center'>eb Application</h1>
+      </div>
+
+
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-5 justify-items-center px-2 py-2 mt-10'>
         {projects.slice(0, visibleProjects).map((project, index) => (
           <div key={index} className='bg-white dark:bg-transparent p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 border border-b;lue-700'>
