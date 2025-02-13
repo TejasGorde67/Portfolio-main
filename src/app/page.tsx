@@ -173,8 +173,9 @@ const Home = () => {
         <div className="flex flex-col gap-8">
           {/* <HoverImageComponent /> */}
           <MyProjects projects={projects} />
+          <HoverImageComponent />
           <ContactMe />
-        </div>
+        </div>        
       </MotionSection>
     </main>
   );
