@@ -4,7 +4,9 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTheme } from 'next-themes'; // Assuming Next.js for theme switching
 import { Mail, Phone, Github, Linkedin , TwitterIcon } from 'lucide-react';
-import { BsTwitterX } from "react-icons/bs";
+import { BsTwitterX, } from "react-icons/bs";
+import { FaWhatsapp } from 'react-icons/fa';
+
 const ContactMe: React.FC = () => {
   const { theme } = useTheme(); // Next.js theme switcher hook
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -101,8 +103,18 @@ const ContactMe: React.FC = () => {
           whileHover={{ scale: 1.1, rotate: -5 }}
         >
           <BsTwitterX className="h-8 w-8 mb-2 text-blue-400" />
-          <span>X</span>
+          <span>Twitter</span>
         </motion.a>
+
+        <motion.a
+          href="https://wa.me/9172234691"
+          className="flex flex-col items-center p-4 bg-transparent dark:bg-transparent dark:text-white rounded-lg border border-black dark:border-white shadow-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition transform hover:scale-105 hover:rotate-3"
+          whileHover={{ scale: 1.1, rotate: -5 }}
+        >
+          <FaWhatsapp className="h-8 w-8 mb-2 text-green-500" />
+          <span>WhatsApp</span>
+        </motion.a>
+
 
         <motion.a
           href="https://github.com/TejasGorde67"
