@@ -8,7 +8,6 @@ import Image from "next/image";
 import Link from "next/link";
 import MyProjects from "@/components/projects";
 import { FaReact, FaNodeJs, FaDatabase, FaLock, FaComments, FaTasks } from 'react-icons/fa';
-import CertificationsSection from "@/components/cert";
 import Head from "next/head";
 import { FlipWordsDemo } from "@/components/words";
 import { DockDemo } from "@/components/dock";

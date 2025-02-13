@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { FaTools, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsTwitterX } from "react-icons/bs";
 
-import CertificationsSection from "@/components/cert";
 import ReadmeDisplay from "@/components/readme";
 
 
@@ -145,10 +144,7 @@ const AboutPage = () => {
                             {/* <ExperienceSection /> */}
                         </div>
                         
-                        <div className="relative pt-8 md:pt-16">
-                            <div className="w-32 md:w-24 h-0.5 md:h-1 bg-gradient-to-r from-blue-400/50 via-blue-400 to-blue-400/50 mx-auto mb-8 md:mb-16"></div>
-                            <CertificationsSection />
-                        </div>
+                        
                     </div>
                 </div>
             </section>
