@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 import CertificationsSection from "@/components/cert";
 import ReadmeDisplay from "@/components/readme";
-import ExperienceSection from "@/components/experience";
+
 
 interface Particle {
   x: number;
@@ -142,7 +142,7 @@ const AboutPage = () => {
 
                     <div className="space-y-16 md:space-y-32 mt-8">
                         <div className="relative">
-                            <ExperienceSection />
+                            
                         </div>
                         
                         <div className="relative pt-8 md:pt-16">
