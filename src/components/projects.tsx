@@ -49,7 +49,7 @@ const MyProjects: React.FC<MyProjectsProps> = ({ projects, showLoadMore = false 
           </div>
         ))}
       </div>
-      <div>
+      <div className='flex justify-center mt-2'>
       <LoadMoreButton />
      </div>
 
