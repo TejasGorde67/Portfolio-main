@@ -30,10 +30,7 @@ const MyProjects: React.FC<MyProjectsProps> = ({ projects, showLoadMore = false 
         <h1 className='text-center'> | My Projects |</h1>
       </div>
 
-      <div className='flex justify-center items-center'>
-       <FaWeebly className='text-2xl mr-0' /> 
-       <h1 className='text-center'>eb Application</h1>
-      </div>
+     
 
 
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-5 justify-items-center px-2 py-2 mt-10'>
@@ -58,32 +55,11 @@ const MyProjects: React.FC<MyProjectsProps> = ({ projects, showLoadMore = false 
 
      
 
-      <div className='flex justify-center items-center mt-4'> 
-  <FaMobileAlt className='text-2xl mr-0' />
-  <h1 className='text-center'>Mobile Application</h1>
-</div>
+      
 
 
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-5 justify-items-center px-2 py-2 mt-10'>
-        {projects.slice(0, visibleProjects).map((project, index) => (
-          <div key={index} className='bg-white dark:bg-transparent p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 border border-b;lue-700'>
 
-            <div className='flex items-center mb-4'>
-              <div className='text-4xl mr-4 transition-transform duration-300 hover:scale-150'>
-                {project.icon}
-              </div>
-              <div>
-                <h2 className='text-xl font-bold text-gray-800 dark:text-white'>{project.title}</h2>
-                <p className='text-sm text-gray-600 dark:text-gray-300'>{project.description}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-     <div>
-      <LoadMoreButton />
-     </div>
     </div>
 
 
