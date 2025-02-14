@@ -33,12 +33,11 @@ const staggerContainer = {
 };
 
 const projects = [
-    { title: 'Sociallite', description: 'Social messaging Platform.', icon: <FaNodeJs className='text-black-500' /> },
-    { title: 'PageFlix', description: 'Book browsing Platform', icon: <FaReact className='text-cyan-400' /> },
+    
     { title: 'AnonyGram', description: 'Anonymous social media platform.', icon: <FaLock className='text-gray-500' /> },
-    { title: 'Realtime Chat App', description: 'Live messaging with WebSockets.', icon: <FaComments className='text-green-400' /> },
+    { title: 'Realtime Chat App', description: 'Livee messaging with WebSockets.', icon: <FaComments className='text-green-400' /> },
     { title: 'Book Store App', description: 'A full-stack book store application.', icon: <FaReact className='text-blue-500' /> },
-    { title: 'Kanban Board Project', description: 'Task management with drag and drop.', icon: <FaTasks className='text-yellow-500' /> },
+    { title: 'Kanban Board Project', description: 'Task mngment with drag and drop.', icon: <FaTasks className='text-yellow-500' /> },
 
 
  
