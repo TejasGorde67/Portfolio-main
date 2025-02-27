@@ -3,47 +3,72 @@ import { motion } from "framer-motion";
 import { GitHubLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
 import { BsTwitterX } from "react-icons/bs";
 
-import { ChevronRight, MailPlus, MouseIcon, Terminal, Download } from "lucide-react";
+import {
+  ChevronRight,
+  MailPlus,
+  MouseIcon,
+  Terminal,
+  Download,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import MyProjects from "@/components/projects";
-import { FaReact, FaNodeJs, FaDatabase, FaLock, FaComments, FaTasks } from 'react-icons/fa';
+import {
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaLock,
+  FaComments,
+  FaTasks,
+} from "react-icons/fa";
 import Head from "next/head";
 import { FlipWordsDemo } from "@/components/words";
 import { DockDemo } from "@/components/dock";
 import HoverImageComponent from "@/components/skills";
+import ExperienceSection from "@/components/experience";
 import ReadmeDisplay from "@/components/readme";
 import ContactMe from "@/components/contact";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import IconCloud from "@/components/ui/iconcloud";
 import { MotionSection, MotionDiv } from "@/components/motion";
 
 const fadeInUp = {
   initial: { y: 20, opacity: 0 },
   animate: { y: 0, opacity: 1 },
-  transition: { duration: 0.5 }
+  transition: { duration: 0.5 },
 };
 
 const staggerContainer = {
   animate: {
     transition: {
-      staggerChildren: 0.1
-    }
-  }
+      staggerChildren: 0.1,
+    },
+  },
 };
 
 const projects = [
-    
-    { title: 'AnonyGram', description: 'Anonymous social media platform.', icon: <FaLock className='text-gray-500' /> },
-    { title: 'Realtime Chat App', description: 'Livee messaging with WebSockets.', icon: <FaComments className='text-green-400' /> },
-    { title: 'Book Store App', description: 'A full-stack book store application.', icon: <FaReact className='text-blue-500' /> },
-    { title: 'Kanban Board Project', description: 'Task mngment with drag and drop.', icon: <FaTasks className='text-yellow-500' /> },
+  {
+    title: "AnonyGram",
+    description: "Anonymous social media platform.",
+    icon: <FaLock className="text-gray-500" />,
+  },
+  {
+    title: "Realtime Chat App",
+    description: "Livee messaging with WebSockets.",
+    icon: <FaComments className="text-green-400" />,
+  },
+  {
+    title: "Book Store App",
+    description: "A full-stack book store application.",
+    icon: <FaReact className="text-blue-500" />,
+  },
+  {
+    title: "Kanban Board Project",
+    description: "Task mngment with drag and drop.",
+    icon: <FaTasks className="text-yellow-500" />,
+  },
+];
 
-
- 
-  
-  ];
-  
 const Home = () => {
   const iconSlugs = [
     // Frontend
@@ -77,7 +102,7 @@ const Home = () => {
   return (
     <main className="flex min-h-screen flex-col items-center">
       {/* Hero Section */}
-      <MotionSection 
+      <MotionSection
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -85,52 +110,45 @@ const Home = () => {
       >
         <div className="flex flex-col md:flex-row items-center justify-between w-full">
           {/* Left side - Introduction */}
-          <MotionDiv 
+          <MotionDiv
             variants={staggerContainer}
             initial="initial"
             animate="animate"
             className="w-full md:w-1/2 space-y-6"
           >
-            <MotionDiv 
+            <MotionDiv
               variants={fadeInUp}
               className="text-sm lg:text-md flex items-center gap-2 opacity-70 font-medium tracking-widest uppercase"
             >
               <Terminal size={17} />
               Hi I am
             </MotionDiv>
-            
-            <MotionDiv 
+
+            <MotionDiv
               variants={fadeInUp}
               className="text-4xl flex gap-12 items-center flex-row md:text-7xl lg:text-8xl font-bold"
             >
-              Tejas :) 
+              Tejas :)
             </MotionDiv>
 
             <MotionDiv variants={fadeInUp}>
               <FlipWordsDemo />
             </MotionDiv>
 
-            <MotionDiv 
+            <MotionDiv
               variants={fadeInUp}
               className="opacity-80 text-sm lg:text-xl font-medium"
             >
               <span className="text-blue-500 font-bold">
-              Full Stack Developer Building Impactful Web Applications.
-
+                Full Stack Developer Building Impactful Web Applications.
               </span>
             </MotionDiv>
 
-            <MotionDiv 
-              variants={fadeInUp}
-              className="mt-6"
-            >
+            <MotionDiv variants={fadeInUp} className="mt-6">
               <DockDemo />
             </MotionDiv>
 
-            <MotionDiv 
-              variants={fadeInUp}
-              className="pt-2"
-            >
+            <MotionDiv variants={fadeInUp} className="pt-2">
               <MotionDiv
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -149,7 +167,7 @@ const Home = () => {
           </MotionDiv>
 
           {/* Right side - Icon Cloud */}
-          <MotionDiv 
+          <MotionDiv
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -161,7 +179,7 @@ const Home = () => {
       </MotionSection>
 
       {/* Rest of the content */}
-      <MotionSection 
+      <MotionSection
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -172,8 +190,10 @@ const Home = () => {
           {/* <HoverImageComponent /> */}
           <MyProjects projects={projects} />
           <HoverImageComponent />
+          <ExperienceSection />
+
           <ContactMe />
-        </div>        
+        </div>
       </MotionSection>
     </main>
   );
