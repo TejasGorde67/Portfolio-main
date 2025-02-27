@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Convergence, Poppins } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
-import Navbar from "@/components/common/Navbar";
-import Footer from "@/components/footer";
-import { Toaster } from "@/components/ui/toaster";
+import { ThemeProvider } from "../components/theme-provider";
+import Navbar from "../components/common/Navbar";
+import Footer from "../components/footer";
+import { Toaster } from "../components/ui/toaster";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 
