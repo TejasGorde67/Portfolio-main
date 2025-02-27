@@ -1,4 +1,9 @@
-import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "./ui/tooltip";
+import {
+  TooltipProvider,
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "./ui/tooltip";
 import Link from "next/link";
 import { FC, SVGProps } from "react";
 import { BsTwitterX } from "react-icons/bs";
@@ -25,7 +30,7 @@ export default function Footer() {
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
-          
+
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -45,7 +50,7 @@ export default function Footer() {
           </TooltipProvider>
         </div>
         <p className="text-sm text-muted-foreground text-center md:text-right md:mr-[-150px]">
-          Made by Tejas
+          Made with 💜 by Tejas
         </p>
       </div>
     </footer>
@@ -69,7 +74,6 @@ const GitlabIcon: FC<SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
-
 const LinkedinIcon: FC<SVGProps<SVGSVGElement>> = (props) => (
   <svg
     {...props}
@@ -88,7 +92,6 @@ const LinkedinIcon: FC<SVGProps<SVGSVGElement>> = (props) => (
     <circle cx="4" cy="4" r="2" />
   </svg>
 );
-
 
 const TwitterIcon: FC<SVGProps<SVGSVGElement>> = (props) => (
   <svg
