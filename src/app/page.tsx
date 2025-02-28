@@ -50,12 +50,12 @@ const projects = [
   {
     title: "AnonyGram",
     description: "Anonymous social media platform.",
-    icon: <FaLock className="text-gray-500" />,
+    icon: <FaComments className="text-green-400" />,
   },
   {
-    title: "Realtime Chat App",
-    description: "Livee messaging with WebSockets.",
-    icon: <FaComments className="text-green-400" />,
+    title: "PageFlix",
+    description: "Online Free Book browsing Platform.",
+    icon: <FaTasks className="text-yellow-500" />,
   },
   {
     title: "Book Store App",
@@ -109,7 +109,6 @@ const Home = () => {
         className="w-full max-w-7xl px-6 min-h-[80vh] flex items-center"
       >
         <div className="flex flex-col md:flex-row items-center justify-between w-full">
-          {/* Left side - Introduction */}
           <MotionDiv
             variants={staggerContainer}
             initial="initial"
@@ -166,7 +165,6 @@ const Home = () => {
             </MotionDiv>
           </MotionDiv>
 
-          {/* Right side - Icon Cloud */}
           <MotionDiv
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -178,7 +176,6 @@ const Home = () => {
         </div>
       </MotionSection>
 
-      {/* Rest of the content */}
       <MotionSection
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -187,7 +184,6 @@ const Home = () => {
         className="w-full max-w-7xl px-6"
       >
         <div className="flex flex-col gap-8">
-          {/* <HoverImageComponent /> */}
           <MyProjects projects={projects} />
           <HoverImageComponent />
           <ExperienceSection />

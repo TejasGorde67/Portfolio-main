@@ -39,7 +39,7 @@ const ExperienceSection = () => {
         <h1 className="text-center"> | My Experience |</h1>
       </div>
 
-      <div className="w-3/4 max-lg:w-full max-lg:px-20 max-sm:w-full max-sm:px-5 flex flex-col items-center">
+      <div className="w-3/4 max-lg:w-full max-lg:px-20 max-sm:w-full max-sm:px-5 flex flex-col items-center ">
         {experiences.map((exp, index) => (
           <MagicCard
             key={index}
