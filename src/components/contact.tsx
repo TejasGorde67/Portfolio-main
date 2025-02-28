@@ -2,13 +2,13 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useTheme } from "next-themes"; // Assuming Next.js for theme switching
+import { useTheme } from "next-themes";
 import { Mail, Phone, Github, Linkedin, TwitterIcon } from "lucide-react";
 import { BsTwitterX } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
 
 const ContactMe: React.FC = () => {
-  const { theme } = useTheme(); // Next.js theme switcher hook
+  const { theme } = useTheme();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -21,61 +21,9 @@ const ContactMe: React.FC = () => {
     setCommand(e.target.value);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter") {
-      processCommand();
-    }
-  };
-
-  const processCommand = () => {
-    const addRegex = /^git add \. "(.*)"$/;
-    const commitRegex = /^git commit -m "(.*)"$/;
-    const pushRegex = /^git push origin adityajha2005$/;
-
-    if (addRegex.test(command)) {
-      const message = addRegex.exec(command)?.[1] || "";
-      setFormData({ ...formData, message });
-      setCommand("");
-    } else if (commitRegex.test(command)) {
-      const email = commitRegex.exec(command)?.[1] || "";
-      setFormData({ ...formData, email });
-      setCommand("");
-    } else if (pushRegex.test(command)) {
-      handleSubmit();
-      setCommand("");
-    } else {
-      setFormStatus("Invalid command. Please try again.");
-    }
-  };
-
-  const handleSubmit = async () => {
-    setFormStatus("Submitting...");
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({
-        access_key: "f6a57aa6-d736-4b09-a35b-408d2b7758c9", // Replace with your Web3Forms access key
-        ...formData,
-      }),
-    });
-
-    const result = await res.json();
-
-    if (result.success) {
-      setFormStatus("Message sent successfully!");
-      setFormData({ name: "", email: "", message: "" });
-    } else {
-      setFormStatus("Failed to send message. Please try again.");
-    }
-  };
-
   return (
     <div
-      className={`flex flex-col items-center justify-center min-h-screen ${
+      className={`flex flex-col items-center justify-center  ${
         theme === "dark"
           ? "bg-transparent  text-white"
           : "bg-transparent text-black"
