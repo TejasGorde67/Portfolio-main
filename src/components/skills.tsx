@@ -56,13 +56,20 @@ const HoverImageComponent: React.FC = () => {
       alt: "TypeScript",
       tooltip: "TypeScript",
     },
+
     {
-      src: isDarkMode
-        ? "/assests/skills/vercelwhite.webp"
-        : "/assests/skills/vercel.webp",
+      src: "/assests/skills/vercelwhite.webp",
       alt: "Vercel",
       tooltip: "Vercel",
     },
+
+    // {
+    //   src: isDarkMode
+    //     ? "/assests/skills/vercelwhite.webp"
+    //     : "/assests/skills/vercel.webp",
+    //   alt: "Vercel",
+    //   tooltip: "Vercel",
+    // },
     { src: "/assests/skills/vite.webp", alt: "Vite", tooltip: "Vite" },
     {
       src: "/assests/skills/tailwind.webp",
