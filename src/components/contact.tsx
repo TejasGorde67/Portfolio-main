@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
 import { Mail, Phone, Github, Linkedin, TwitterIcon } from "lucide-react";
 import { BsTwitterX } from "react-icons/bs";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaPhone } from "react-icons/fa";
 
 const ContactMe: React.FC = () => {
   const { theme } = useTheme();
@@ -35,7 +35,7 @@ const ContactMe: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        | Let's Connect |
+        {/* {/* <FaPhone className="text-2xl mr-2" /> */}| Let's Connect |
       </motion.h1>
 
       <motion.div

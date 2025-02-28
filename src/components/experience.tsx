@@ -21,10 +21,10 @@ const experiences: ExperienceItem[] = [
     company_name: "Goanny Technologies",
     company_logo: "/assests/goanny.png",
     company_link: "https://www.goanny.com",
-    job_title: "Full Stack Developer",
+    job_title: "Full Stack Developer (Internship)",
     duration: "Dec 2024 - Feb 2025",
     description:
-      "Developed and optimized AI-powered applications, integrating machine learning models into full-stack systems.",
+      "Collaborated with the development team as a Full-Stack Developer to build responsive and high-performance applications, gaining hands-on experience in Web Development. Assisted in client project, contributing to both frontend and backend development.",
   },
 ];
 
@@ -33,13 +33,13 @@ const ExperienceSection = () => {
 
   return (
     // <div className="w-full min-h-screen flex flex-col items-center justify-center mt-2 pb-8 px-5">
-    <div className="mt-20">
+    <div className="mt-20 w-full flex-col items-center ">
       <div className="flex justify-center items-center">
         <FaBriefcase className="text-2xl mr-2" />
         <h1 className="text-center"> | My Experience |</h1>
       </div>
 
-      <div className="w-3/4 max-lg:w-full max-lg:px-20 max-sm:w-full max-sm:px-5 flex flex-col items-center ">
+      <div>
         {experiences.map((exp, index) => (
           <MagicCard
             key={index}
