@@ -35,7 +35,7 @@ const ContactMe: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        {/* {/* <FaPhone className="text-2xl mr-2" /> */}| Let's Connect |
+        {/* {/* <FaPhone className="text-2xl mr-2" /> */}🤝| Let's Connect |
       </motion.h1>
 
       <motion.div

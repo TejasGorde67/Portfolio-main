@@ -66,8 +66,8 @@ const HoverImageComponent: React.FC = () => {
     <TooltipProvider delayDuration={0}>
       <div className="mt-20">
         <div className="flex justify-center items-center">
-          <FaTools className="text-2xl mr-2" />
-          <h1 className="text-center"> | My skills |</h1>
+          {/* <FaTools className="text-2xl mr-2 text-blue-300" /> */}
+          <h1 className="text-center"> 🛠️| My skills |</h1>
         </div>
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-y-14 gap-x-14 justify-items-center px-2 py-2 mt-10">
           {images.map((image, index) => (

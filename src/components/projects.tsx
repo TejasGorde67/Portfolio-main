@@ -28,8 +28,8 @@ const MyProjects: React.FC<MyProjectsProps> = ({
   return (
     <div className="mt-20">
       <div className="flex justify-center items-center">
-        <FaFolderOpen className="text-2xl mr-2" />
-        <h1 className="text-center"> | My Projects |</h1>
+        {/* <FaFolderOpen className="text-2xl mr-2 text-blue-300" /> */}
+        <h1 className="text-center"> 📁| My Projects |</h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-5 justify-items-center px-2 py-2 mt-10">
         {projects.slice(0, visibleProjects).map((project, index) => (
