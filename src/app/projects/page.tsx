@@ -61,7 +61,7 @@ export default function Component() {
                       translateZ={20}
                       translateX={-40}
                       as="a"
-                      href=""
+                      href="https://anony-gram.vercel.app/"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
@@ -123,7 +123,7 @@ export default function Component() {
                       translateZ={20}
                       translateX={-40}
                       as="a"
-                      href=""
+                      href="https://cloud-brain.vercel.app/"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
@@ -184,7 +184,7 @@ export default function Component() {
                       translateZ={20}
                       translateX={-40}
                       as="a"
-                      href=""
+                      href="https://page-flix.vercel.app/"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
@@ -248,7 +248,7 @@ export default function Component() {
                       translateZ={20}
                       translateX={-40}
                       as="a"
-                      href=""
+                      href="https://sociallite.vercel.app/"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
