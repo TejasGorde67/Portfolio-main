@@ -25,9 +25,9 @@ export default function Footer() {
                   <BsTwitterX className="h-7 w-7" />
                 </Link>
               </TooltipTrigger>
-              <TooltipContent>
+              {/* <TooltipContent>
                 <p>https://x.com/tejas_87_</p>
-              </TooltipContent>
+              </TooltipContent> */}
             </Tooltip>
           </TooltipProvider>
 
