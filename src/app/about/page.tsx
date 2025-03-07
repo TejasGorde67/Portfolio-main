@@ -134,8 +134,8 @@ const AboutPage = () => {
 
             <div>
               <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-                "Not losing hope on a bad day, not getting too excited on a good
-                day but working every day to turn dream into reality."
+                {/* "Not losing hope on a bad day, not getting too excited on a good
+                day but working every day to turn dream into reality." */}
               </p>
             </div>
           </motion.div>
