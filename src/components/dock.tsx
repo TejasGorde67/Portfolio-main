@@ -24,11 +24,11 @@ export function DockDemo() {
           <Icons.linkedin className="h-8 w-8" />
         </a>
       </DockIcon>
-      {/* <DockIcon>
+      <DockIcon>
         <a href="https://x.com/tejas_87_" target="_blank">
           <Icons.twitte className="h-8 w-8" />
         </a>
-      </DockIcon> */}
+      </DockIcon>
     </Dock>
   );
 }

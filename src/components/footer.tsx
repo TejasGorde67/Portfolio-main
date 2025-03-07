@@ -16,18 +16,18 @@ export default function Footer() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                {/* <Link
+                <Link
                   href="https://x.com/tejas_87_"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary transition-colors px-[30px]"
                   prefetch={false}
                 >
                   <BsTwitterX className="h-7 w-7" />
-                </Link> */}
+                </Link>
               </TooltipTrigger>
-              {/* <TooltipContent>
+              <TooltipContent>
                 <p>https://x.com/tejas_87_</p>
-              </TooltipContent> */}
+              </TooltipContent>
             </Tooltip>
           </TooltipProvider>
 
