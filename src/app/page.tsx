@@ -51,11 +51,13 @@ const projects = [
     title: "AnonyGram",
     description: "Anonymous social media platform.",
     icon: <FaComments className="text-green-400" />,
+    link: "#projects",
   },
   {
     title: "PageFlix",
     description: "Online Free Book browsing Platform.",
     icon: <FaTasks className="text-yellow-500" />,
+    link: "#projects",
   },
   {
     title: "Book Store App",
