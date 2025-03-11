@@ -106,11 +106,11 @@ const AboutPage = () => {
             <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-6">
               Full Stack Web Developer building impactful web applications. I
               specialize in developing scalable web solutions with expertise in
-              frontend, backend, and real-time applications. Passionate about
-              solving real-world problems, I thrive on challenges that push me
-              to innovate and optimize. My journey includes MERN stack
-              development, React Native, applied AI, and data-driven
-              applications.
+              frontend, backend, and real-time applications. I also build mobile
+              Applications using React Native, Passionate about Building
+              Impactful, Scalable & Responsive Web Applications. My journey
+              includes MERN stack development, React Native, applied AI, and
+              data-driven applications.
             </p>
 
             <div className="flex justify-center space-x-6 pt-4">
