@@ -36,7 +36,7 @@ const ExperienceSection = () => {
     <div className="mt-20 w-full flex-col items-center ">
       <div className="flex justify-center items-center">
         {/* <FaBriefcase className="text-2xl mr-2 text-blue-300" /> */}
-        <h1 className="text-center"> 💼| My Experience |</h1>
+        <h1 className="text-center"> 💼| Experience |</h1>
       </div>
 
       <div>
