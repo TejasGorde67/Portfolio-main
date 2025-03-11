@@ -26,7 +26,7 @@ const MyProjects: React.FC<MyProjectsProps> = ({
   };
 
   return (
-    <div className="mt-20">
+    <div className="mt-20" id="projects">
       <div className="flex justify-center items-center">
         {/* <FaFolderOpen className="text-2xl mr-2 text-blue-300" /> */}
         <h1 className="text-center"> 📁| PROJECTS |</h1>
@@ -42,9 +42,12 @@ const MyProjects: React.FC<MyProjectsProps> = ({
                 {project.icon}
               </div>
               <div>
-                <h2 className="text-xl font-bold text-gray-800 dark:text-white">
+                <a
+                  href="#projects"
+                  className="text-xl font-bold text-gray-800 dark:text-white hover:underline"
+                >
                   {project.title}
-                </h2>
+                </a>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
                   {project.description}
                 </p>
