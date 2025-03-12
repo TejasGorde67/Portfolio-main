@@ -33,7 +33,7 @@ const MyProjects: React.FC<MyProjectsProps> = ({
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-5 justify-items-center px-2 py-2 mt-10">
         {projects.slice(0, visibleProjects).map((project, index) => (
-          <div
+          <a
             key={index}
             className="bg-white dark:bg-transparent p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 border border-b;lue-700"
           >
@@ -43,8 +43,9 @@ const MyProjects: React.FC<MyProjectsProps> = ({
               </div>
               <div>
                 <a
-                  href="#projects"
-                  className="text-xl font-bold text-gray-800 dark:text-white hover:underline"
+                  key={index}
+                  href="https://portfolio-main-navy-rho.vercel.app/projects"
+                  className="block w-full"
                 >
                   {project.title}
                 </a>
@@ -53,7 +54,7 @@ const MyProjects: React.FC<MyProjectsProps> = ({
                 </p>
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
       <div>
