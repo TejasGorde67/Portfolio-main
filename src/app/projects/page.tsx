@@ -32,15 +32,15 @@ export default function Component() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                   >
-                    AnonyGram
+                    AnonyGram - is an anonymous messaging platform
                   </CardItem>
                   <CardItem
                     as="p"
                     translateZ="60"
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                   >
-                    React, Next.js, Tailwind CSS, shadcn, Clerk, Neon,
-                    PostgreSQL, Prisma, uploadthing
+                    Next.js, TypeScript, NextAuth, Gemini, MongoDB, Nodemailer,
+                    Magic UI, Tailwind CSS
                   </CardItem>
                   <CardItem
                     translateZ="100"
@@ -99,14 +99,16 @@ export default function Component() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                   >
-                    CloudBrain
+                    CloudBrain - collaborate share ideas & brain storm with each
+                    other
                   </CardItem>
                   <CardItem
                     as="p"
                     translateZ="60"
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                   >
-                    HTML, CSS, Javascript, Typescript
+                    Next.js, TypeScript, NextAuth, Gemini, MongoDB, Nodemailer,
+                    Magic UI, Tailwind CSS
                   </CardItem>
                   <CardItem
                     translateZ="100"
@@ -164,14 +166,16 @@ export default function Component() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                   >
-                    PageFlix
+                    PageFlix - platform for discovering, downloading & uploading
+                    books
                   </CardItem>
                   <CardItem
                     as="p"
                     translateZ="60"
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                   >
-                    HTML, CSS, Javascript, Typescript
+                    Next.js, TypeScript, NextAuth, MongoDB, Zod, Framer Motion,
+                    Shadcn UI, Tailwind CSS
                   </CardItem>
                   <CardItem
                     translateZ="100"
@@ -230,7 +234,8 @@ export default function Component() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                   >
-                    Socialite
+                    Socialite - social media platform to engage with other
+                    followers
                   </CardItem>
                   <CardItem
                     as="p"
@@ -238,7 +243,7 @@ export default function Component() {
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                   >
                     React, Next.js, Tailwind CSS, shadcn, Clerk, Neon,
-                    PostgreSQL, Prisma, uploadthing{" "}
+                    PostgreSQL, Prisma, uploadthing
                   </CardItem>
                   <CardItem
                     translateZ="100"
