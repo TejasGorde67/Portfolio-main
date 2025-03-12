@@ -21,9 +21,24 @@ const HoverImageComponent: React.FC = () => {
   const { isDarkMode } = useDarkMode();
 
   const images: ImageData[] = [
+    {
+      src: "/assests/skills/js.webp",
+      alt: "JavaScript",
+      tooltip: "JavaScript",
+    },
     { src: "/assests/skills/css.webp", alt: "CSS", tooltip: "CSS" },
-    { src: "/assests/skills/docker.webp", alt: "Docker", tooltip: "Docker" },
-    { src: "/assests/skills/fastapi.webp", alt: "FastAPI", tooltip: "FastAPI" },
+    {
+      src: "/assests/skills/typescript.webp",
+      alt: "TypeScript",
+      tooltip: "TypeScript",
+    },
+    {
+      src: "/assests/skills/tailwind.webp",
+      alt: "Tailwind CSS",
+      tooltip: "Tailwind CSS",
+    },
+    { src: "/assests/skills/vite.webp", alt: "Vite", tooltip: "Vite" },
+    { src: "/assests/skills/python.webp", alt: "Python", tooltip: "Python" },
     { src: "/assests/skills/git.webp", alt: "Git", tooltip: "Git" },
     { src: "/assests/skills/github.webp", alt: "GitHub", tooltip: "GitHub" },
     {
@@ -31,13 +46,7 @@ const HoverImageComponent: React.FC = () => {
       alt: "GitHub Actions",
       tooltip: "GitHub Actions",
     },
-    { src: "/assests/skills/gitlab.webp", alt: "GitLab", tooltip: "GitLab" },
     { src: "/assests/skills/html.webp", alt: "HTML", tooltip: "HTML" },
-    {
-      src: "/assests/skills/js.webp",
-      alt: "JavaScript",
-      tooltip: "JavaScript",
-    },
     { src: "/assests/skills/mongoDB.webp", alt: "MongoDB", tooltip: "MongoDB" },
     { src: "/assests/skills/mysql.webp", alt: "MySQL", tooltip: "MySQL" },
     { src: "/assests/skills/aws.webp", alt: "AWS", tooltip: "AWS" },
@@ -49,34 +58,13 @@ const HoverImageComponent: React.FC = () => {
       tooltip: "PostgreSQL",
     },
     { src: "/assests/skills/react.webp", alt: "React", tooltip: "React" },
-    { src: "/assests/skills/replit.webp", alt: "Replit", tooltip: "Replit" },
     { src: "/assests/skills/sass.webp", alt: "Sass", tooltip: "Sass" },
-    {
-      src: "/assests/skills/typescript.webp",
-      alt: "TypeScript",
-      tooltip: "TypeScript",
-    },
-
     {
       src: "/assests/skills/vercelwhite.webp",
       alt: "Vercel",
       tooltip: "Vercel",
     },
-
-    // {
-    //   src: isDarkMode
-    //     ? "/assests/skills/vercelwhite.webp"
-    //     : "/assests/skills/vercel.webp",
-    //   alt: "Vercel",
-    //   tooltip: "Vercel",
-    // },
-    { src: "/assests/skills/vite.webp", alt: "Vite", tooltip: "Vite" },
-    {
-      src: "/assests/skills/tailwind.webp",
-      alt: "Tailwind CSS",
-      tooltip: "Tailwind CSS",
-    },
-    { src: "/assests/skills/python.webp", alt: "Python", tooltip: "Python" },
+    { src: "/assests/skills/docker.webp", alt: "Docker", tooltip: "Docker" },
     { src: "/assests/skills/netlify.webp", alt: "Netlify", tooltip: "Netlify" },
   ];
 

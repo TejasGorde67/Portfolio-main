@@ -7,14 +7,14 @@ import Title from "./ui/Title";
 import { FaBriefcase } from "react-icons/fa";
 import { bricolage_grotesque, inter } from "../utils/fonts";
 
-interface ExperienceItem {
+type ExperienceItem = {
   company_name: string;
   company_logo: string;
   company_link: string;
   job_title: string;
   duration: string;
-  description: string;
-}
+  description: string[];
+};
 
 const experiences: ExperienceItem[] = [
   {
@@ -23,8 +23,11 @@ const experiences: ExperienceItem[] = [
     company_link: "https://www.goanny.com",
     job_title: "Full Stack Developer (Internship)",
     duration: "Dec 2024 - Feb 2025",
-    description:
-      "Collaborated with the development team as a Full-Stack Developer to build responsive and high-performance applications, gaining hands-on experience in Web Development. Assisted in client project, contributing to both frontend and backend development.",
+    description: [
+      "Collaborated with the development team as a Full-Stack Developer to build responsive and high-performance applications.",
+      "Gained hands-on experience in Web Development.",
+      "Assisted in client projects, contributing to both frontend and backend development.",
+    ],
   },
 ];
 
@@ -81,7 +84,11 @@ const ExperienceSection = () => {
                   </h2>
                 </div>
                 <div className="mt-5 max-sm:mt-3 text-md max-sm:text-sm">
-                  <p>{exp.description}</p>
+                  <ul className="list-disc pl-5 text-sm text-gray-600 dark:text-gray-300">
+                    {exp.description.map((point, index) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>
