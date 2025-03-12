@@ -66,6 +66,13 @@ const HoverImageComponent: React.FC = () => {
     },
     { src: "/assests/skills/docker.webp", alt: "Docker", tooltip: "Docker" },
     { src: "/assests/skills/netlify.webp", alt: "Netlify", tooltip: "Netlify" },
+    { src: "/assests/skills/express.webp", alt: "Express", tooltip: "Express" },
+    { src: "/assests/skills/java.webp", alt: "Java", tooltip: "Java" },
+    {
+      src: "/assests/skills/supabase.webp",
+      alt: "Supabase",
+      tooltip: "Supabase",
+    },
   ];
 
   return (
