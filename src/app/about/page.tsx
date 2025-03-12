@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { FaTools, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 import ReadmeDisplay from "@/components/readme";
 
@@ -81,6 +82,7 @@ const AboutPage = () => {
       label: "LinkedIn",
     },
     { Icon: BsTwitterX, url: "https://x.com/tejas_87_", label: "Twitter" },
+    { Icon: MdEmail, url: "mailto:tejasgorde87@gmail.com", label: "Gmail" },
   ];
 
   return (
@@ -108,9 +110,9 @@ const AboutPage = () => {
               specialize in developing scalable web solutions with expertise in
               frontend, backend, and real-time applications. I also build mobile
               Applications using React Native, Passionate about Building
-              Impactful, Scalable & Responsive Web Applications. My journey
-              includes MERN stack development, React Native, applied AI, and
-              data-driven applications.
+              Impactful, Scalable & Responsive Web & Mobile Applications. My
+              journey includes MERN stack development, React Native, applied AI,
+              and data-driven applications.
             </p>
 
             <div className="flex justify-center space-x-6 pt-4">
