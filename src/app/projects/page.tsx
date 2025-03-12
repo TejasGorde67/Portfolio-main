@@ -62,6 +62,8 @@ export default function Component() {
                       translateX={-40}
                       as="a"
                       href="https://anony-gram.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
@@ -72,6 +74,8 @@ export default function Component() {
                       translateX={40}
                       as="a"
                       href="https://github.com/TejasGorde67/AnonyGram"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center px-4 py-2 text-white text-xl font-bold"
                     >
                       <GitHubLogoIcon className="w-8 h-8" />
@@ -124,6 +128,8 @@ export default function Component() {
                       translateX={-40}
                       as="a"
                       href="https://cloud-brain.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
@@ -133,6 +139,8 @@ export default function Component() {
                       translateX={40}
                       as="a"
                       href="https://github.com/TejasGorde67/CloudBrain"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center px-4 py-2 text-white text-xl font-bold"
                     >
                       <GitHubLogoIcon className="w-8 h-8" />
@@ -185,6 +193,8 @@ export default function Component() {
                       translateX={-40}
                       as="a"
                       href="https://page-flix.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
@@ -195,6 +205,8 @@ export default function Component() {
                       translateX={40}
                       as="a"
                       href="https://github.com/TejasGorde67/PageFlix"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center px-4 py-2 text-white text-xl font-bold"
                     >
                       <GitHubLogoIcon className="w-8 h-8" />
@@ -249,6 +261,8 @@ export default function Component() {
                       translateX={-40}
                       as="a"
                       href="https://sociallite.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Live Link →
@@ -259,6 +273,8 @@ export default function Component() {
                       translateX={40}
                       as="a"
                       href="https://github.com/TejasGorde67/Sociallite"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center px-4 py-2 text-white text-xl font-bold"
                     >
                       <GitHubLogoIcon className="w-8 h-8" />

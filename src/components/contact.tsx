@@ -46,6 +46,8 @@ const ContactMe: React.FC = () => {
       >
         <motion.a
           href="mailto:tejasgorde87@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col items-center p-4 bg-transparent dark:bg-transparent dark:text-white rounded-lg border border-black dark:border-white shadow-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition transform hover:scale-105 hover:rotate-3"
           whileHover={{ scale: 1.1, rotate: 5 }}
         >
@@ -55,6 +57,8 @@ const ContactMe: React.FC = () => {
 
         <motion.a
           href="https://x.com/tejas_87_"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col items-center p-4 bg-transparent dark:bg-transparent dark:text-white rounded-lg border border-black dark:border-white shadow-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition transform hover:scale-105 hover:rotate-3"
           whileHover={{ scale: 1.1, rotate: -5 }}
         >
@@ -64,6 +68,8 @@ const ContactMe: React.FC = () => {
 
         <motion.a
           href="https://github.com/TejasGorde67"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col items-center p-4 bg-transparent dark:bg-transparent dark:text-white dar rounded-lg border border-black dark:border-white shadow-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition transform hover:scale-105 hover:rotate-3"
           whileHover={{ scale: 1.1, rotate: 5 }}
         >
@@ -73,6 +79,8 @@ const ContactMe: React.FC = () => {
 
         <motion.a
           href="https://www.linkedin.com/in/tejas-gorde-63b464256/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col items-center p-4 bg-transparent dark:bg-transparent dark:text-white rounded-lg border border-black dark:border-white shadow-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition transform hover:scale-105 hover:rotate-3"
           whileHover={{ scale: 1.1, rotate: -5 }}
         >
@@ -82,6 +90,8 @@ const ContactMe: React.FC = () => {
 
         <motion.a
           href="https://wa.me/9172234691"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col items-center p-4 bg-transparent dark:bg-transparent dark:text-white rounded-lg border border-black dark:border-white shadow-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition transform hover:scale-105 hover:rotate-3"
           whileHover={{ scale: 1.1, rotate: -5 }}
         >
