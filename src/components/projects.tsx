@@ -31,30 +31,33 @@ const MyProjects: React.FC<MyProjectsProps> = ({
         {/* <FaFolderOpen className="text-2xl mr-2 text-blue-300" /> */}
         <h1 className="text-center"> 📁| PROJECTS |</h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-5 justify-items-center px-2 py-2 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-4 py-4 mt-10">
         {projects.slice(0, visibleProjects).map((project, index) => (
-          <a
+          <div
             key={index}
-            className="bg-white dark:bg-transparent p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 border border-b;lue-700"
+            onClick={() =>
+              (window.location.href =
+                "https://portfolio-main-navy-rho.vercel.app/projects")
+            }
+            className="bg-white dark:bg-transparent p-6 rounded-lg shadow-lg 
+            transform transition-transform hover:scale-105 
+            border border-blue-700 cursor-pointer w-full relative 
+            overflow-hidden hover:z-10"
           >
             <div className="flex items-center mb-4">
               <div className="text-4xl mr-4 transition-transform duration-300 hover:scale-150">
                 {project.icon}
               </div>
               <div>
-                <a
-                  key={index}
-                  href="https://portfolio-main-navy-rho.vercel.app/projects"
-                  className="block w-full"
-                >
+                <h2 className="text-xl font-bold text-gray-800 dark:text-white">
                   {project.title}
-                </a>
+                </h2>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
                   {project.description}
                 </p>
               </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
       <div>
