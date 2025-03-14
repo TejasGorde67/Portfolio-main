@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { GitHubLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
 import { BsTwitterX } from "react-icons/bs";
-import CopyCmd from "@/components/copycmd";
 import {
   ChevronRight,
   MailPlus,
