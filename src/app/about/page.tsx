@@ -135,9 +135,12 @@ const AboutPage = () => {
             <h2 className="text-2xl font-semibold mb-4">"The go to person"</h2>
 
             <div>
-              <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-                {/* "Not losing hope on a bad day, not getting too excited on a good
-                day but working every day to turn dream into reality." */}
+              <p className="flex justify-center text-lg leading-relaxed max-w-2xl mx-auto mb-6">
+                <img
+                  src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Blue%20Heart.png"
+                  alt="Blue Heart"
+                  className="w-8 md:w-[50px] dark:brightness-125"
+                />
               </p>
             </div>
           </motion.div>
