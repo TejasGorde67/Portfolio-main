@@ -141,7 +141,7 @@ const Home = () => {
               className="opacity-80 text-sm lg:text-xl font-medium"
             >
               <span className="text-blue-500 font-bold">
-                Full Stack Developer Building Impactful Web Applications.
+                FullStack Developer Building Impactful Web Applications🚀
               </span>
             </MotionDiv>
 

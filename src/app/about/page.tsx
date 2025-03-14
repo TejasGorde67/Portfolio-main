@@ -94,8 +94,8 @@ const AboutPage = () => {
             animate={{ opacity: 1, y: 0 }}
             className="flex justify-center items-center gap-3"
           >
-            <FaTools className="text-3xl text-blue-400" />
-            <h1 className="text-6xl md:text-5xl font-bold"> About Me</h1>
+            {/* <FaTools className="text-3xl text-blue-400" /> */}
+            <h1 className="text-6xl md:text-5xl font-bold"> -𝓐𝓫𝓸𝓾𝓽 𝓜𝓮-</h1>
           </motion.div>
 
           <motion.div
