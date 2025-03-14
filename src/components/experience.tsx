@@ -24,9 +24,11 @@ const experiences: ExperienceItem[] = [
     job_title: "Full Stack Developer (Internship)",
     duration: "Dec 2024 - Feb 2025",
     description: [
-      "Collaborated with the development team as a Full-Stack Developer to build responsive and high-performance applications.",
-      "Gained hands-on experience in Web Development.",
-      "Assisted in client projects, contributing to both frontend and backend development.",
+      "Collaborated as a Full-Stack Developer to build responsive, high-performance applications, improving load speeds by 30% and reducing errors.",
+      "Assisted to a client project, reducing UI load time by 25% through optimized component structuring.",
+      "Implemented state management solutions (Redux, Context API) to enhance data consistency and app performance.",
+      "Gained hands-on experience in React Native development and working on real-world mobile applications ",
+      "Improving cross-platform compatibility and ensuring a seamless user experience on both iOS and Android.",
     ],
   },
 ];
