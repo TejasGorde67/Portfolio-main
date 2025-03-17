@@ -22,7 +22,7 @@ const experiences: ExperienceItem[] = [
     company_logo: "/assests/goanny.png",
     company_link: "https://www.goanny.com",
     job_title: "Full Stack Developer (Internship)",
-    duration: "Dec 2024 - Feb 2025",
+    duration: "Oct 2024 - Mar 2025",
     description: [
       "Collaborated as a Full-Stack Developer to build responsive, high-performance applications, improving load speeds by 30% and reducing errors.",
       "Assisted to a client project, reducing UI load time by 25% through optimized component structuring.",
