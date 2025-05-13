@@ -138,7 +138,16 @@ const Home = () => {
               className="opacity-80 text-sm lg:text-xl font-medium"
             >
               <span className="text-blue-500 font-bold">
-                FullStack Developer Building Impactful Web Applications🚀
+                Currently specializing in Frontend Development🚀
+              </span>
+            </MotionDiv>
+
+            <MotionDiv
+              variants={fadeInUp}
+              className="opacity-80 text-sm lg:text-xl font-medium"
+            >
+              <span className="text-blue-500 ">
+                ⚡(React / Next.js / React Native)
               </span>
             </MotionDiv>
 

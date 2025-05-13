@@ -3,11 +3,9 @@ import { FlipWords } from "./ui/words";
 
 export function FlipWordsDemo() {
   const words = [
-    "Fullstack\u00A0Developer",
     "FrontEnd\u00A0Developer",
-    "MERN\u00A0Developer",
-    // "React Native\u00A0Developer",
-    "Data\u00A0Enthusiast",
+    "React Native\u00A0Developer",
+    "Software\u00A0Engineer",
     "Applied AI\u00A0Enthusiast",
     "Coder",
   ];
