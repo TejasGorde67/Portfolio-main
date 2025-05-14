@@ -67,17 +67,6 @@ const ContactMe: React.FC = () => {
         </motion.a>
 
         <motion.a
-          href="https://github.com/TejasGorde67"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-col items-center p-4 bg-transparent dark:bg-transparent dark:text-white dar rounded-lg border border-black dark:border-white shadow-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition transform hover:scale-105 hover:rotate-3"
-          whileHover={{ scale: 1.1, rotate: 5 }}
-        >
-          <Github className="h-8 w-8 mb-2 text-gray-700" />
-          <span>GitHub</span>
-        </motion.a>
-
-        <motion.a
           href="https://www.linkedin.com/in/tejas-gorde-63b464256/"
           target="_blank"
           rel="noopener noreferrer"
