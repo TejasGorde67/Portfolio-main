@@ -146,8 +146,8 @@ const Home = () => {
               variants={fadeInUp}
               className="opacity-80 text-sm lg:text-xl font-medium"
             >
-              <span className="text-blue-500 ">
-                ⚡(React / Next.js / React Native)
+              <span className="text-white-500 ">
+                (React / Next.js / React Native)⚡
               </span>
             </MotionDiv>
 

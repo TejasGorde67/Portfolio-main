@@ -106,13 +106,12 @@ const AboutPage = () => {
           >
             <h2 className="text-3xl font-bold mb-4">Tejas Gorde</h2>
             <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-              Full Stack Web Developer building impactful web applications. I
-              specialize in developing scalable web solutions with expertise in
-              frontend, backend, and real-time applications. I also build mobile
-              Applications using React Native, Passionate about Building
-              Impactful, Scalable & Responsive Web & Mobile Applications. My
-              journey includes MERN stack development, React Native, applied AI,
-              and data-driven applications.
+              Frontend Developer building impactful and responsive web and
+              mobile applications. I focus on creating scalable and
+              user-friendly interfaces using React, Next.js and React Native.
+              I'm passionate about designing seamless experiences that work
+              beautifully across all devices. Currently specializing in Frontend
+              & Applied AI.
             </p>
 
             <div className="flex justify-center space-x-6 pt-4">
