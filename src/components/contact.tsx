@@ -23,23 +23,18 @@ const ContactMe: React.FC = () => {
 
   return (
     <div
-      className={`flex flex-col items-center justify-center  ${
+      className={`flex flex-col items-center justify-center pt-2 pb-4 ${
         theme === "dark"
-          ? "bg-transparent  text-white"
+          ? "bg-transparent text-white"
           : "bg-transparent text-black"
       }`}
     >
-      <motion.h1
-        className=" mb-4 text-black dark:text-white "
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      >
-        {/* {/* <FaPhone className="text-2xl mr-2" /> */}🤝| Let's Connect |
-      </motion.h1>
+      <h2 className="text-3xl font-bold text-center mb-4 text-black dark:text-white">
+        🤝 Let's Connect 🤝
+      </h2>
 
       <motion.div
-        className="flex flex-wrap justify-center gap-6 mt-8 mb-8"
+        className="flex flex-wrap justify-center gap-6 mt-2"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}

@@ -8,7 +8,7 @@ import { Meteors } from "@/components/ui/meteors";
 import { useState } from "react";
 
 export default function Component() {
-  const [activeTab, setActiveTab] = useState("mobile"); // Default to mobile apps
+  const [activeTab, setActiveTab] = useState("web"); // Default to mobile apps
 
   // Web and mobile projects data remains unchanged
 

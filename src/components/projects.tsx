@@ -28,7 +28,9 @@ const MyProjects: React.FC<MyProjectsProps> = ({
   return (
     <div className="mt-20" id="projects">
       <div className="flex justify-center items-center">
-        <h1 className="text-center"> 📁| PROJECTS |</h1>
+        <h2 className="text-3xl font-bold text-center mb-12 text-black dark:text-white">
+          📂 Projects 📂
+        </h2>
       </div>
       <div className="mt-7 flex justify-center items-center">
         <h1 className="text-center"> - Web Applications - </h1>

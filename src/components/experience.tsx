@@ -24,11 +24,10 @@ const experiences: ExperienceItem[] = [
     job_title: "Full Stack Developer (Internship)",
     duration: "Oct 2024 - Mar 2025",
     description: [
-      "Collaborated as a Full-Stack Developer to build responsive, high-performance applications, improving load speeds by 30% and reducing errors.",
-      "Assisted to a client project, reducing UI load time by 25% through optimized component structuring.",
+      "Worked as a Frontend Developer, contributing to responsive and high-performance web and mobile applications.Helped improve load speed and reduce user-facing errors through clean code.",
+      "Collaborated on a client project, reducing UI load time by 25% through optimized component structuring.",
       "Implemented state management solutions (Redux, Context API) to enhance data consistency and app performance.",
-      "Gained hands-on experience in React Native development and working on real-world mobile applications ",
-      "Improving cross-platform compatibility and ensuring a seamless user experience on both iOS and Android.",
+      "Gained hands-on experience in React Native development and working on real-world mobile applications. Improved cross-platform compatibility and ensuring a seamless user experience on both iOS and Android.",
     ],
   },
 ];
@@ -38,10 +37,12 @@ const ExperienceSection = () => {
 
   return (
     // <div className="w-full min-h-screen flex flex-col items-center justify-center mt-2 pb-8 px-5">
-    <div className="mt-20 w-full flex-col items-center ">
+    <div className="mt- w-full flex-col items-center ">
       <div className="flex justify-center items-center">
         {/* <FaBriefcase className="text-2xl mr-2 text-blue-300" /> */}
-        <h1 className="text-center"> 💼| EXPERIENCE |</h1>
+        <h2 className="text-3xl font-bold text-center mb-18 text-black dark:text-white">
+          💼 Experience 💼
+        </h2>
       </div>
 
       <div>
