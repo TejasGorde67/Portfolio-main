@@ -21,7 +21,7 @@ const experiences: ExperienceItem[] = [
     company_name: "Goanny Technologies",
     company_logo: "/assests/goanny.png",
     company_link: "https://www.goanny.com",
-    job_title: "Full Stack Developer (Internship)",
+    job_title: "Frontend Developer (Internship)",
     duration: "Oct 2024 - Mar 2025",
     description: [
       "Worked as a Frontend Developer, contributing to responsive and high-performance web and mobile applications.Helped improve load speed and reduce user-facing errors through clean code.",
