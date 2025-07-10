@@ -18,16 +18,16 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
-    company_name: "Goanny Technologies",
+    company_name: "Frontend Developer",
     company_logo: "/assests/goanny.png",
     company_link: "https://www.goanny.com",
-    job_title: "Frontend Developer (Internship)",
-    duration: "Oct 2024 - Mar 2025",
+    job_title: " Goanny Technologies Pvt.Ltd   ",
+    duration: "Oct 2024 - Present",
     description: [
-      "Worked as a Frontend Developer, contributing to responsive and high-performance web and mobile applications.Helped improve load speed and reduce user-facing errors through clean code.",
-      "Collaborated on a client project, reducing UI load time by 25% through optimized component structuring.",
-      "Implemented state management solutions (Redux, Context API) to enhance data consistency and app performance.",
-      "Gained hands-on experience in React Native development and working on real-world mobile applications. Improved cross-platform compatibility and ensuring a seamless user experience on both iOS and Android.",
+      "Front-End Developer with experience in building responsive and high-performance web and mobile apps using React.js and React Native.",
+      "Experienced in state management (Redux, Context API) and API integrationsfor dynamic data handling.",
+      "Skilled in HTML, CSS, JavaScript, and modern UI frameworksfor creating seamless user experiences.",
+      "Strong understanding of performance optimization, component-based architecture and cross-platform development.",
     ],
   },
 ];
