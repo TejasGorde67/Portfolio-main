@@ -48,21 +48,13 @@ export default function Component() {
 
   const mobileProjects = [
     {
-      title:
-        "PageFlix - platform for discovering, downloading & uploading books",
-      tech: "Next.js, TypeScript, NextAuth, MongoDB, Zod, Framer Motion, Shadcn UI, Tailwind CSS",
-      image: "/assests/pageflix.png",
-      liveLink: "https://page-flix.vercel.app/",
-      githubLink: "https://github.com/TejasGorde67/PageFlix",
+      title: "Mobile Apps Coming Soon",
+      tech: "Currently building exciting mobile applications",
+      image: "/assests/building.png", // You might need to add this image or use a placeholder
+      liveLink: "#",
+      githubLink: "#",
     },
-    {
-      title: "Socialite - social media platform to engage with other followers",
-      tech: "React, Next.js, Tailwind CSS, shadcn, Clerk, Neon, PostgreSQL, Prisma, uploadthing",
-      image: "/assests/socialite.png",
-      liveLink: "https://sociallite.vercel.app/",
-      githubLink: "https://github.com/TejasGorde67/Sociallite",
-    },
-    // Add more mobile projects as needed
+    // Mobile projects removed as requested
   ];
 
   // Get current projects based on active tab

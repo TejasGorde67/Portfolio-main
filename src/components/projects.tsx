@@ -64,10 +64,10 @@ const MyProjects: React.FC<MyProjectsProps> = ({
         ))}
       </div>
 
-      <div className="mt-7 flex justify-center items-center">
+      {/* <div className="mt-7 flex justify-center items-center">
         <h1 className="text-center"> - Mobile Applications - </h1>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-4 py-4 mt-10">
+      </div> */}
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-4 py-4 mt-10">
         {projects.slice(0, visibleProjects).map((project, index) => (
           <div
             key={index}
@@ -94,7 +94,7 @@ const MyProjects: React.FC<MyProjectsProps> = ({
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       <div>
         <LoadMoreButton />
       </div>
