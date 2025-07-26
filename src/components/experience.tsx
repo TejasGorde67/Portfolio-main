@@ -18,11 +18,11 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
-    company_name: "Frontend Developer",
+    company_name: "Frontend Developer (Internship)",
     company_logo: "/assests/goanny.png",
     company_link: "https://www.goanny.com",
     job_title: " Goanny Technologies Pvt.Ltd   ",
-    duration: "Oct 2024 - Present",
+    duration: "Feb 2025 - Present",
     description: [
       "Front-End Developer with experience in building responsive and high-performance web and mobile apps using React.js and React Native.",
       "Experienced in state management (Redux, Context API) and API integrationsfor dynamic data handling.",
